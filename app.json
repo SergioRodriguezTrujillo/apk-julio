@@ -1,28 +1,38 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Movimiento de Alcance Mundial",
+    "slug": "mam",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icono.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icono.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#16A6FA"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/icono.png",
+        "backgroundColor": "#16A6FA"
+      },
+      "package": "com.ceciliagonzalez.mam"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/icono.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "12e75173-9159-4a42-9294-5153ae0743c1"
+      }
+    },
+    "owner": "ceciliagonzalez"
   }
 }
