@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/icono.png",
       "resizeMode": "contain",
-      "backgroundColor": "#16A6FA"
+      "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true
@@ -17,7 +17,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icono.png",
-        "backgroundColor": "#16A6FA"
+        "backgroundColor": "#ffffff"
       },
       "package": "com.ceciliagonzalez.mam"
     },

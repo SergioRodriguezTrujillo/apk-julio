@@ -119,8 +119,8 @@ const styles = StyleSheet.create({
   },
   section: {
     backgroundColor: 'rgba(255, 255, 255, 0.8)',
-    margin: 12,
-    padding: 16,
+    margin: 8,
+    padding: 12,
     borderRadius: 15,
   },
   sectionTitle: {
@@ -140,16 +140,16 @@ const styles = StyleSheet.create({
   contactCard: {
     backgroundColor: 'rgba(255, 255, 255, 0.8)',
     borderRadius: 15,
-    margin: 12,
-    padding: 6,
-    marginBottom: 20,
+    margin: 8,
+    padding: 4,
+    marginBottom: 8,
     alignItems: 'center',
   },
   contactPhoto: {
     width: 120,
     height: 120,
     borderRadius: 60,
-    marginBottom: 15,
+    marginBottom: 12,
     marginTop: 12,
   },
   contactName: {
@@ -171,13 +171,14 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: '#333',
     textAlign: 'justify',
-    marginBottom: 15,
+    marginBottom: 12,
     paddingHorizontal: 10,
   },
   contactIcons: {
     flexDirection: 'row',
     justifyContent: 'space-around',
     width: '80%',
+    marginBottom: 12,
   },
   gmailIcon: {
     width: 36,

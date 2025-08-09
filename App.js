@@ -22,6 +22,11 @@ import Leccion2 from './components/lecciones/Leccion2';
 import Leccion3 from './components/lecciones/Leccion3';
 import Leccion3A from './components/lecciones/Leccion3A';
 import Leccion4 from './components/lecciones/Leccion4';
+import WordLeccion1 from './components/lecciones/WordLeccion1';
+import WordLeccion2 from './components/lecciones/WordLeccion2';
+import WordLeccion3 from './components/lecciones/WordLeccion3';
+import WordLeccion3A from './components/lecciones/WordLeccion3A';
+import WordLeccion4 from './components/lecciones/WordLeccion4';
 import Herramienta1 from './components/HerramientasSimples/Herramienta1';
 import Herramienta2 from './components/HerramientasSimples/Herramienta2';
 import Herramienta3 from './components/HerramientasSimples/Herramienta3';
@@ -35,6 +40,20 @@ import Herramienta10 from './components/HerramientasSimples/Herramienta10';
 import Herramienta11 from './components/HerramientasSimples/Herramienta11';
 import Herramienta12 from './components/HerramientasSimples/Herramienta12';
 import Herramienta13 from './components/HerramientasSimples/Herramienta13';
+import WordHerramienta1 from './components/HerramientasSimples/WordHerramienta1';
+import WordHerramienta2 from './components/HerramientasSimples/WordHerramienta2';
+import WordHerramienta3 from './components/HerramientasSimples/WordHerramienta3';
+import WordHerramienta4 from './components/HerramientasSimples/WordHerramienta4';
+import WordHerramienta5 from './components/HerramientasSimples/WordHerramienta5';
+import WordHerramienta6 from './components/HerramientasSimples/WordHerramienta6';
+import WordHerramienta7 from './components/HerramientasSimples/WordHerramienta7';
+import WordHerramienta8 from './components/HerramientasSimples/WordHerramienta8';
+import WordHerramienta9 from './components/HerramientasSimples/WordHerramienta9';
+import WordHerramienta10 from './components/HerramientasSimples/WordHerramienta10';
+import WordHerramienta11 from './components/HerramientasSimples/WordHerramienta11';
+import WordHerramienta12 from './components/HerramientasSimples/WordHerramienta12';
+import WordHerramienta13 from './components/HerramientasSimples/WordHerramienta13';
+
 
 // Importa los nuevos componentes
 import HerramientaIntensiva1 from './components/HerramientasIntensivas/HerramientaIntensiva1';
@@ -51,7 +70,20 @@ import HerramientaIntensiva11 from './components/HerramientasIntensivas/Herramie
 import HerramientaIntensiva12 from './components/HerramientasIntensivas/HerramientaIntensiva12';
 import HerramientaIntensiva13 from './components/HerramientasIntensivas/HerramientaIntensiva13';
 import HerramientaIntensiva14 from './components/HerramientasIntensivas/HerramientaIntensiva14';
-
+import WordIntensiva1 from './components/HerramientasIntensivas/WordIntensiva1';
+import WordIntensiva2 from './components/HerramientasIntensivas/WordIntensiva2';
+import WordIntensiva3 from './components/HerramientasIntensivas/WordIntensiva3';
+import WordIntensiva4 from './components/HerramientasIntensivas/WordIntensiva4';
+import WordIntensiva5 from './components/HerramientasIntensivas/WordIntensiva5';
+import WordIntensiva6 from './components/HerramientasIntensivas/WordIntensiva6';
+import WordIntensiva7 from './components/HerramientasIntensivas/WordIntensiva7';
+import WordIntensiva8 from './components/HerramientasIntensivas/WordIntensiva8';
+import WordIntensiva9 from './components/HerramientasIntensivas/WordIntensiva9';
+import WordIntensiva10 from './components/HerramientasIntensivas/WordIntensiva10';
+import WordIntensiva11 from './components/HerramientasIntensivas/WordIntensiva11';
+import WordIntensiva12 from './components/HerramientasIntensivas/WordIntensiva12';
+import WordIntensiva13 from './components/HerramientasIntensivas/WordIntensiva13';
+import WordIntensiva14 from './components/HerramientasIntensivas/WordIntensiva14';
 
 const Stack = createStackNavigator();
 
@@ -172,6 +204,11 @@ export default function App() {
           <Stack.Screen name="Leccion3" component={Leccion3} options={{ title: 'Leccion 3: Gran Visión Local' }} />
           <Stack.Screen name="Leccion3A" component={Leccion3A} options={{ title: 'Leccion 3A: Método Espada' }} />
           <Stack.Screen name="Leccion4" component={Leccion4} options={{ title: 'Leccion 4: Panorama 4 Campos' }} />
+          <Stack.Screen name="WordLeccion1" component={WordLeccion1} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordLeccion2" component={WordLeccion2} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordLeccion3" component={WordLeccion3} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordLeccion3A" component={WordLeccion3A} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordLeccion4" component={WordLeccion4} options={{ title: 'Word' }} />
 
           <Stack.Screen name="Herramienta1" component={Herramienta1} options={{ title: 'Hr 1: Mapa Relacional' }} />
           <Stack.Screen name="Herramienta2" component={Herramienta2} options={{ title: 'Hr 2: Persona/Casa de Paz' }} />
@@ -186,6 +223,19 @@ export default function App() {
           <Stack.Screen name="Herramienta11" component={Herramienta11} options={{ title: 'Hr 11: Hierro Sobre Hierro' }} />
           <Stack.Screen name="Herramienta12" component={Herramienta12} options={{ title: 'Hr 12: MAOI' }} />
           <Stack.Screen name="Herramienta13" component={Herramienta13} options={{ title: 'Hr 13: Dinámica de la multiplicación' }} />
+          <Stack.Screen name="WordHerramienta1" component={WordHerramienta1} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta2" component={WordHerramienta2} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta3" component={WordHerramienta3} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta4" component={WordHerramienta4} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta5" component={WordHerramienta5} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta6" component={WordHerramienta6} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta7" component={WordHerramienta7} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta8" component={WordHerramienta8} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta9" component={WordHerramienta9} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta10" component={WordHerramienta10} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta11" component={WordHerramienta11} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta12" component={WordHerramienta12} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordHerramienta13" component={WordHerramienta13} options={{ title: 'Word' }} />
 
           <Stack.Screen name="HerramientaIntensiva1" component={HerramientaIntensiva1} options={{ title: 'H.I 1: El Filtro' }} />
           <Stack.Screen name="HerramientaIntensiva2" component={HerramientaIntensiva2} options={{ title: 'H.I 2: Mapa Generacional' }} />
@@ -201,7 +251,21 @@ export default function App() {
           <Stack.Screen name="HerramientaIntensiva12" component={HerramientaIntensiva12} options={{ title: 'H.I 12: Para quien es este Entrenamiento' }} />
           <Stack.Screen name="HerramientaIntensiva13" component={HerramientaIntensiva13} options={{ title: 'H.I 13: Principios para Entrenar' }} />
           <Stack.Screen name="HerramientaIntensiva14" component={HerramientaIntensiva14} options={{ title: 'H.I 14: Entrenamiento y Enseñanzas' }} />
-          
+          <Stack.Screen name="WordIntensiva1" component={WordIntensiva1} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva2" component={WordIntensiva2} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva3" component={WordIntensiva3} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva4" component={WordIntensiva4} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva5" component={WordIntensiva5} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva6" component={WordIntensiva6} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva7" component={WordIntensiva7} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva8" component={WordIntensiva8} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva9" component={WordIntensiva9} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva10" component={WordIntensiva10} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva11" component={WordIntensiva11} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva12" component={WordIntensiva12} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva13" component={WordIntensiva13} options={{ title: 'Word' }} />
+          <Stack.Screen name="WordIntensiva14" component={WordIntensiva14} options={{ title: 'Word' }} />
+
         </Stack.Navigator>
       </BackgroundWrapper>
     </NavigationContainer>
