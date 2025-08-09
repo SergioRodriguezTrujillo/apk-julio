@@ -286,7 +286,7 @@ const PasswordDialog = ({ isVisible, onClose, onSubmit }) => {
         {/* Header */}
         <View style={styles.header}>
           <View style={styles.headerLine} />
-          <Text style={styles.title}>Acceso Seguro</Text>
+          <Text style={styles.title}>Acceso Nivel Superior</Text>
           <Text style={styles.subtitle}>Ingrese su código de 5 dígitos</Text>
         </View>
 
