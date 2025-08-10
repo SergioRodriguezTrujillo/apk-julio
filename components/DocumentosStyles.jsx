@@ -92,6 +92,7 @@ export const documentosStyles = StyleSheet.create({
   videoPlayerContainer: {
     position: "relative",
     zIndex: 1,
+    paddingTop: 12,
     padding:8,
   },
   videoContainer: {
@@ -99,7 +100,7 @@ export const documentosStyles = StyleSheet.create({
     marginTop: 12,
     position: "relative",
     width: width - 16,
-    height: 205,
+    height: 200,
     marginBottom: 20,
     borderRadius: 10,
     overflow: "hidden",

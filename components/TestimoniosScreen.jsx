@@ -7,9 +7,9 @@ export default function TestimoniosScreen() {
   return (
     <ImageBackground source={require("../assets/icons/fondo1.jpg")} style={styles.container}>
       <ScrollView style={styles.scrollContainer}>
-        <VideoPlayer source={require("../assets/videos/Testimonio1.mp4")} style={styles.videoContainer} />
-        <VideoPlayer source={require("../assets/videos/Testimonio2.mp4")} style={styles.videoContainer} />
-        <VideoPlayer source={require("../assets/videos/Testimonio3.mp4")} style={styles.videoContainer} />
+        <VideoPlayer source={require("../assets/videos/Testimonio1.mp4")} style={styles.videoPlayerContainer} />
+        <VideoPlayer source={require("../assets/videos/Testimonio2.mp4")} style={styles.videoPlayerContainer} />
+        <VideoPlayer source={require("../assets/videos/Testimonio3.mp4")} style={styles.videoPlayerContainer} />
       </ScrollView>
     </ImageBackground>
   )
@@ -23,8 +23,5 @@ const styles = StyleSheet.create({
   scrollContainer: {
     flex: 1,
   },
-  videoContainer: {
-    marginTop: 20,
-    marginBottom: 20,
-  },
+
 })

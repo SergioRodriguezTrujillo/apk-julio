@@ -20,8 +20,8 @@ export default function Leccion4({ route }) {
 
   const newContent = (
     <>
-      <View style={estilosIndividual.videoPlayerContainer}>
-        <VideoPlayer source={require("../../assets/videos/Leccion4.mp4")} style={styles.videoContainer} />
+      <View style={styles.videoPlayerContainer}>
+        <VideoPlayer source={require("../../assets/videos/Leccion4.mp4")}/>
       </View>
       <View style={styles.buttonContainer}>
         <TouchableOpacity style={styles.button} onPress={openPowerPoint}>
@@ -83,10 +83,6 @@ export default function Leccion4({ route }) {
 }
 
 const estilosIndividual = StyleSheet.create({
-  videoPlayerContainer: {
-    position: "relative",
-    zIndex: 1,
-  },
   tableContainer: {
     width: "100%",
     aspectRatio: 0.7,

@@ -286,7 +286,7 @@ const PasswordDialog = ({ isVisible, onClose, onSubmit }) => {
         {/* Header */}
         <View style={styles.header}>
           <View style={styles.headerLine} />
-          <Text style={styles.title}>Acceso Nivel Superior</Text>
+          <Text style={styles.title}>Solo Nivel Superior</Text>
           <Text style={styles.subtitle}>Ingrese su código de 5 dígitos</Text>
         </View>
 
@@ -380,7 +380,7 @@ const styles = StyleSheet.create({
   dialog: {
     backgroundColor: "white",
     borderRadius: 20,
-    padding: 30,
+    padding: 20,
     width: width * 0.85,
     maxWidth: 400,
     alignItems: "center",
@@ -520,7 +520,7 @@ const styles = StyleSheet.create({
   },
   confirmButtonText: {
     color: "white",
-    fontSize: 16,
+    fontSize: 18,
     textAlign: "center",
     fontFamily: "Lora-Bold",
   },
@@ -535,7 +535,7 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderColor: "#F4493C",
     paddingVertical: 15,
-    paddingHorizontal: 20,
+    paddingHorizontal: 12,
     borderRadius: 12,
     flex: 1,
     marginLeft: 10,
@@ -543,7 +543,7 @@ const styles = StyleSheet.create({
   closeButtonText: {
     fontFamily: "Lora-Bold",
     color: "#F4493C",
-    fontSize: 16,
+    fontSize: 18,
     textAlign: "center",
   },
   footer: {

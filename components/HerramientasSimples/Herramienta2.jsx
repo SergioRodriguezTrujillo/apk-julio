@@ -22,7 +22,7 @@ export default function Herramienta2({ route }) {
   const newContent = (
     <>
       <View style={styles.videoPlayerContainer}>
-        <VideoPlayer source={require("../../assets/videos/Herramienta2.mp4")} style={styles.videoContainer} />
+        <VideoPlayer source={require("../../assets/videos/Herramienta2.mp4")}/>
       </View>
 
       <View style={styles.buttonContainer}>

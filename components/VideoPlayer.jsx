@@ -322,7 +322,7 @@ export default function VideoPlayer({ source, style }) {
 const styles = StyleSheet.create({
   videoContainer: {
     width: "100%",
-    height: 200,
+    height: 205,
     borderRadius: 10,
     backgroundColor: "rgba(0,0,0,0.8)",
     overflow: "hidden",
